@@ -26,7 +26,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-serif font-semibold text-sage-700">GreenMind Grove</span>
+            <img 
+              src="/lovable-uploads/bd170072-abc2-4336-9a52-c28788de9575.png" 
+              alt="Gardening Nepal Logo" 
+              className="h-12 w-auto"
+            />
           </Link>
           
           {/* Desktop Navigation */}

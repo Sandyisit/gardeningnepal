@@ -12,7 +12,11 @@ const Footer = () => {
           {/* Brand & Description */}
           <div className="md:col-span-1">
             <Link to="/" className="inline-block mb-4">
-              <span className="text-2xl font-serif font-semibold text-sage-700">GreenMind Grove</span>
+              <img 
+                src="/lovable-uploads/bd170072-abc2-4336-9a52-c28788de9575.png" 
+                alt="Gardening Nepal Logo" 
+                className="h-12 w-auto mb-3"
+              />
             </Link>
             <p className="text-sage-600 mb-4">
               Home-grown succulents and cacti from Kathmandu Valley, Nepal. Bringing the joy of plants and their therapeutic benefits to your home.
@@ -24,7 +28,7 @@ const Footer = () => {
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage-800 transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="mailto:contact@greenmindgrove.com" className="hover:text-sage-800 transition-colors">
+              <a href="mailto:gardeningnepal2023@gmail.com" className="hover:text-sage-800 transition-colors">
                 <Mail size={20} />
               </a>
             </div>
@@ -68,7 +72,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin size={20} className="text-sage-600 mt-0.5 flex-shrink-0" />
-                <span className="text-sage-600">Kathmandu Valley, Nepal</span>
+                <span className="text-sage-600">191 Danda Gaun Marga, Bhaisepati-25, Lalitpur Metropolitan City, Lalitpur, Nepal</span>
               </li>
               <li className="flex items-start space-x-3">
                 <Phone size={20} className="text-sage-600 mt-0.5 flex-shrink-0" />
@@ -76,7 +80,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-3">
                 <Mail size={20} className="text-sage-600 mt-0.5 flex-shrink-0" />
-                <span className="text-sage-600">contact@greenmindgrove.com</span>
+                <span className="text-sage-600">gardeningnepal2023@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -103,7 +107,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-sage-200 text-center">
           <p className="text-sage-500 text-sm">
-            &copy; {new Date().getFullYear()} GreenMind Grove. All rights reserved.
+            &copy; {new Date().getFullYear()} Gardening Nepal. All rights reserved.
           </p>
         </div>
       </div>

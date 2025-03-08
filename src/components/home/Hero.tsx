@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="max-w-3xl mx-auto md:mx-0">
           <div className={`transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <span className="inline-block px-3 py-1 text-xs font-medium bg-white/20 backdrop-blur-sm text-white rounded-full mb-4">
-              Handcrafted with care in Kathmandu Valley
+              Handcrafted with care in Lalitpur, Nepal
             </span>
           </div>
           

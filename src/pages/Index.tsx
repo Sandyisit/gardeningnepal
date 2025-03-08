@@ -10,6 +10,8 @@ import BlogPreview from '../components/home/BlogPreview';
 
 const Index = () => {
   useEffect(() => {
+    // Set page title with business name
+    document.title = "Gardening Nepal - Home-grown Succulents & Cacti";
     window.scrollTo(0, 0);
   }, []);
   
